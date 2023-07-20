@@ -128,7 +128,7 @@ def run_ml_app():
     if prediction == 1:
         st.success("Congratulations, You are Promoted")
         
-        # st.write(pred_probability_score)
+        st.write(pred_probability_score)
     else:
         st.warning("Always give the contribution")
-        # st.write(pred_probability_score)
+        st.write(pred_probability_score)
